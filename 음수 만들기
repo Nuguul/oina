@@ -1,0 +1,8 @@
+function solution(num_list) { // 첫 번쨰로 나오는 음수의 인덱스를 return 하기
+ const found = num_list.findIndex((element) => element < 0); // 파운드라는 변수를 만들고 findIndex를 활용하여 
+    if(found >0){                                            // 첫번쨰 나오는 음수를 찾아야 하기 떄문에 0과 같거나
+                                                             // 음수로 만들기
+        return found;                                        //  그후 if 를 이용하여 파운드 값을 음수로 만들어준후 
+}                                                            //  파운드명령어가 되는지확인후 마무리하였습니다.
+        return -1;
+}
